@@ -1,9 +1,9 @@
 import './App.css'
-import Homework02 from './homeworks/Homework02/Homework02'
+import Homework03 from './homeworks/Homework03/Homework03'
 
 function App() {  
-  return (<div classname = "app">
-  <Homework02/>
+  return (<div className = "app">
+  <Homework03/>
   </div>
   );  
 }
