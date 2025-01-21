@@ -1,35 +1,16 @@
-* {
-  box-sizing: border-box;
-}
-
-html,
-body {
-  height: 100%;
-  margin: 0;
-  padding: 0;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-ul,
-li {
-  margin: 0;
-  padding: 0;
-}
-
-.email-input {
+.homework03-wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 30px;
-  width: 100%;
-  height: 100%;
-  margin-left: 350px;
-  margin-top: 250px;
+  flex: 1;
+}
+
+.form-element {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 400px;
+  padding: 50px;
+  border: 1px solid rgb(46, 30, 98);
 }
