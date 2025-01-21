@@ -6,16 +6,9 @@ import "./styles.css";
 //    array: []
 // }
 
-//деструктуризация - 2 вариант ()
-function Button({ name = "SEND" }) {
-  const buttonType = "send";
-  // console.log(props.name);
-
-  //деструктуризация 1 вариант
-  // const {name} = props;
-
-  return (
-    <button className="main-button" type={buttonType}>
+function Button({ name = "SEND", type, onClick }) {
+return (
+    <button className="main-button" type={type} onClick={onClick}>
       {name}
     </button>
   );

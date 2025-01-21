@@ -3,17 +3,21 @@ import Input from "../../components/Input/Input";
 
 import "./styles.css";
 
-function Homework03(){
-    return (
-        <div className="email-input">
-        <Input name="Email"
-        type="text"
-        placeholder="Enter your email"
-        label="email"/>
-        <Button name="Send email"
-        type="submit"/> 
-        </div>
-    );
+function Homework03() {
+  return (
+    <div className="homework03-wrapper">
+      <form className="form-element">
+        <Input
+          name="email"
+          placeholder="Enter your email"
+          type="email"
+          label="Email*"
+          id="email_input_id"
+        />
+        <Button name="Send email" />
+      </form>
+    </div>
+  );
 }
 
 export default Homework03;
