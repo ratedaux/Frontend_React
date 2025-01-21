@@ -6,6 +6,7 @@ import "./styles.css";
 //    array: []
 // }
 
+
 function Button({ name = "SEND", type, onClick }) {
 return (
     <button className="main-button" type={type} onClick={onClick}>
