@@ -4,7 +4,7 @@ import { useState } from "react";
 
 function Feedback(){
 const [counter, setCounter] = useState(0);
-const [counter1, setCounter1] = useState(0);
+const [dislikes, dislikesCounter] = useState(0);
 
   const likeClick = () => {
     setCounter((prevState) => prevState + 1);
@@ -22,7 +22,7 @@ return(
         <div className="button-wrapper">
         <Button name="Dislike" type="button" onClick={dislikeClick} />
         </div>
-        <div>{counter1}</div>
+        <div>{dislikes}</div>
     </div>
 );
 }
